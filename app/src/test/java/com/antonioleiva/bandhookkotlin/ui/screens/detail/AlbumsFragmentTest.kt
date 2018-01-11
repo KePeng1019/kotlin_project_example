@@ -103,7 +103,7 @@ class AlbumsFragmentTest {
         albumsFragment.onAttach(albumsFragmentContainer)
         assertNotNull(albumsFragment.albumsFragmentContainer)
         albumsFragment.onCreateView(layoutInflater, null, null)
-        val onClickListener = albumsFragment.adapter.onItemClickListener
+        val onClickListener = albumsFragment.adapter.onItem]ClickListener
 
         // When
         onClickListener?.invoke(imageTitle)

@@ -1,4 +1,4 @@
-val kotlinVersion = "1.1.51"
+val kotlinVersion = "1.2.10"
 val androidGradleVersion = "3.0.0"
 
 // Compile dependencies
